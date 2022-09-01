@@ -1,0 +1,43 @@
+body {
+    /* background: olivedrab; */
+    /* color: #fff; */
+}
+
+
+
+
+table {
+        table-layout: fixed;
+        width: 80%;
+        border-collapse: collapse;
+        border: 7px solid purple
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  thead th:nth-child(1) {
+    width: 30%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 15%;
+  }

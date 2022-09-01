@@ -1,6 +1,20 @@
 # frontend_mdn
-a walk into becoming a frontend developer at MDN 
-all task here
-we move
-the first task in here is marking upna leter tasl with the perfect elemnts and style
-the secomd task is all about structuring a web page with the perfect semantic element for all parts of the page and a good style to that efect
+
+Project done during *Specialized Web2 Training* at *Mozilla Developer Network (mdn webdocs)* a great gift from MOZILLA the maker of *FireFox Browser*
+
+## Technologies
+
+* HTML for markup
+* CSS for styling and more
+* Javascript for page dynamics and manipulation
+* README: Yes! the file you're reading at the moment
+
+## Files
+
+All the following files are programme written during the building of the counter
+| Filename | Description |
+| -------- | ------------ |
+| `index.html` | the markup file that contains the main html code |
+| `app.js` | the external javascript file |
+| `style.css` | the linked stylesheet |
+| `README.md` | the readme file added to the root of the repository |

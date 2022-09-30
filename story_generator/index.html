@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Bello_The_Dev Bello Roqeeb">
+    <meta name="description" content="21 Days Responsive Course">
+    <meta name="keywords" content="Responsive, CSS, Design">
+    <meta property="title" content="ResponsiveDesign"/>
+
+    <!-- 
+        ========Google Font==========
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,500&display=swap" rel="stylesheet">
+    -->
+
+    <!-- ========(Font Awesome) CDN ICONS========== -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Story Generator</title>
+</head>
+<body>
+    <div class="silly-story">
+        <h1>Hipster ipsum is the best</h1>
+        <div>
+            <label for="customname">Enter custom name:</label>
+            <input id="customname" type="text" placeholder="">
+        </div>
+        <div>
+            <label for="us">US</label>
+            <input id="us" type="radio" name="ukus" value="us" checked>
+            <label for="uk">UK</label>
+            <input id="uk" type="radio" name="ukus" value="uk">
+        </div>
+        <div>
+            <button class="randomize">Generate random story</button>
+        </div>
+          <!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
+        <p class="story"></p>
+    </div>
+
+    <hr>
+
+    <div class="sq">
+        <h5>Sq Table [0 - 20]</h5>
+        <p class="squared"></p>
+        <button class="calculate">Calculate</button>
+        <button class="clear">Clear</button>
+    </div>
+
+    <hr>
+    <div class="contact-list_search">
+        <label for="search">Search Contact</label>
+        <input id="search" type="text" placeholder="input name here"/>
+        <button class="search_button">Search</button>
+
+
+        <p class="search_result"></p>
+    </div>
+        
+    <hr>
+
+    <div class="perfect-square">
+        <label for="number">Enter number: </label>
+        <input id="number" type="number" placeholder="any number" />
+        <button class="int-squares">Squares</button>
+        <p class="sqrt">Output:</p>
+    </div>
+
+    <hr>
+
+    <script src="./app.js"></script>
+</body>

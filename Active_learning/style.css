@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'kaushan_scriptregular';
+    src: url('./thefonts/fonts/kaushanscript-regular-webfont.woff2') format('woff2'),
+         url('./thefonts/fonts/kaushanscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'goblinregular';
+    src: url('./thefonts/fonts/goblinone-webfont.woff2') format('woff2'),
+         url('./thefonts/fonts/goblinone-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'zantrokeregular';
+    src: url('./thefonts/fonts/zantroke-webfont.woff2') format('woff2'),
+         url('./thefonts/fonts/zantroke-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'kaushan_scriptregular';
+    /* font-family: 'Dancing Script', cursive, sans-serif; */
+    /* font-family: 'Poppins', sans-serif;  */
+    /* font-family: 'goblinregular'; */
+    /* font-family: 'zantrokeregular'; */
+}
+
+img {
+    max-width: 100%;
+}
+
+.msgBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 242px;
+    background: #eee;
+}
+
+.msgBox p {
+    line-height: 1.5;
+    padding: 10px 20px;
+    color: #333;
+    padding-left: 82px;
+    background-position: 25px center;
+    background-repeat: no-repeat;
+}
+
+.msgBox button {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1.1rem;
+    color: #aaa;
+}
+
